@@ -1,5 +1,8 @@
-Install-Module -Name MicrosoftTeams
-Connect-MicrosoftTeams -Credential 
+$credential = Get-Credential
+
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams -Credential $credential
+
 
 [string[]]$users =Get-Content -Path .\alunos.txt
 foreach ($u in $users) 
