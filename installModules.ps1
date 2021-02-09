@@ -15,8 +15,7 @@
     Script posted over:
    https://github.com/apocsantos/O365EduScripts
 #>
-Function blabla
-{}
+
 Install-Module MicrosoftTeams
 Install-Module -Name ExchangeOnlineManagement
 Install-Module -Name ActiveDirectory
