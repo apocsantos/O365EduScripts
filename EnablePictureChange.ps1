@@ -8,7 +8,7 @@
     Reads users from text file, and set them the policy to allow changing picture
     
 .NOTES
-    File Name      : installModules.ps1
+    File Name      : EnablePictureChange.ps1
     Author         : apocsantos (antoniopocsantos@gmail.com)
     Prerequisite   : PowerShell V5 over Windows 10 and upper.
     Copyright 2021 - AC Santos
